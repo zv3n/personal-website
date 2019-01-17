@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 48px auto 48px; // header, scroll-area, footer
+}
+
+.grid__scroll-area {
+  overflow-y: scroll;
+}

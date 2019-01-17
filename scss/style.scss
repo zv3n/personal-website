@@ -1,0 +1,9 @@
+@import 'colors';
+@import 'utils'; // functional helper classes e.g. self-written .mb-3
+@import 'base'; // global element styles e.g. h1
+
+// components:
+@import 'components/grid'; // main grid
+@import 'components/header'; // main header
+@import 'components/footer'; // main header
+// ... more
